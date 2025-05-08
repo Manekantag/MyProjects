@@ -137,7 +137,7 @@ class CarRacing:
         font = pygame.font.SysFont("lucidaconsole", 14)
         text = font.render("Thanks & Regards,", True, self.white)
         self.gameDisplay.blit(text, (600, 520))
-        text = font.render("Anuj Kumar", True, self.white)
+        text = font.render("venkata manikanta", True, self.white)
         self.gameDisplay.blit(text, (600, 540))
         text = font.render("manikantagvm2003@gmail.com", True, self.white)
         self.gameDisplay.blit(text, (600, 560))
